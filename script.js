@@ -14,7 +14,8 @@ document.addEventListener('DOMContentLoaded', function() {
 // Typewriter effect for the name
 function initTypewriter() {
     const nameElement = document.getElementById('typed-name');
-    const text = 'Mohammad Sohel Mollik';
+    const text = 'Mohammad Sohel \n
+        Owner Of Coding With Ms YouTube Channel ';
     let index = 0;
     
     // Clear the text initially
@@ -321,5 +322,6 @@ window.addEventListener('load', () => {
         document.body.style.opacity = '1';
     }, 100);
 });
+
 
 console.log('🎨 Ms. Mollik\'s dynamic website is ready with amazing animations!');
